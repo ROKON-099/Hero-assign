@@ -1,0 +1,84 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.container{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+} 
+.top-ber{
+ background-image: url(Hero-bg.png);
+ background-color: #F9FAFF;
+ height: 100vh;
+ width: 100%;
+
+
+}
+.logo-ber{
+  border: 1px snow ;
+  padding:25px;
+  
+}
+
+  
+  
+
+.logo-box{
+  color: #4E47FF;
+  text-size:100;
+  
+
+}
+.nav-ber a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border:1px solid blue ;
+  width:80px;
+  padding: 4px;
+  color: aliceblue;
+  background-color:#4E47FF;
+  border-radius: 3px;
+  text-decoration: none;
+  top:25px;
+  right: 75px;
+   transition: background-color 0.3s ease;
+  
+
+
+}
+.nav-ber a:hover{
+    background-color:#FBBC05 ;
+}
+.section{
+  margin: 75px;
+  text-align: center;
+  color: rgb(37, 35, 9);
+
+}
+.section button{
+  margin: 10px;
+  width: 100px;
+  background: #4E47FF;
+  padding: 3px;
+  border-radius: 5px;
+  border-color:#4E47FF;
+  color: white;
+  height: 100vh:
+  transition: background-color 0.3s ease;
+  
+}
+.section button:hover{
+    background-color:#FBBC05 ;
+    cursor: pointer;
+}
+.Action-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #F9FAFF;
+  flex-wrap: wrap;
+}
